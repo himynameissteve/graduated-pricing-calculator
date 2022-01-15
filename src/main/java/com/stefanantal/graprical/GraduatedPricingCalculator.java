@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class Main {
+public class GraduatedPricingCalculator {
   /**
    * Calculates the final price for a number of users with a graduated pricing model.
    * Pricing will be sorted in ascending order by the limit value of each price-limit pair.
