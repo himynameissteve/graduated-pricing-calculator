@@ -4,9 +4,34 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>com.stefanantal</groupId>
     <artifactId>graduated-pricing-calculator</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>Graduated Pricing Calculator</name>
+    <description>Helper tool to calculate the price for a given amount of users within a graduated pricing model.
+    </description>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/himynameissteve/lithic</url>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub himynameissteve Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/himynameissteve/lithic</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <maven.compiler.source>14</maven.compiler.source>
