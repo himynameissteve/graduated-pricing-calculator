@@ -25,8 +25,7 @@ public class GraduatedPricingCalculator {
    * @return final price for given users within the pricing model as {@link BigDecimal}.
    * @throws IllegalArgumentException if pricing contains no or an uneven number of values.
    */
-  public static BigDecimal calculate(List<Double> pricing, int users, boolean lowFixedPrice)
-      throws IllegalArgumentException {
+  public static BigDecimal calculate(List<Double> pricing, int users, boolean lowFixedPrice) {
 
     // Check for invalid arguments and exit early.
     if (pricing.isEmpty()) {
