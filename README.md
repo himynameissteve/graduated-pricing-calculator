@@ -1,8 +1,6 @@
-# Lithic
+# Graduated Pricing Calculator
 
-Hi Lithic,
-
-This small piece of software is a coding exercise I asked some candidates to solve and is based on the pricing model of Atlassian products. In the manner of "eat your own dog food", I wrote a version for you.
+This small piece of software is a coding exercise I asked some candidates to solve and is based on the pricing model of Atlassian products. In the manner of "eat your own dog food", I wrote a version.
 
 Here's the original task for javascript candidates:
 
@@ -23,7 +21,7 @@ Here's the original task for javascript candidates:
 
 ## Considerations
 
-There's room for improvement, and I will release 1.1.0 with a builder pattern style functionality and some tweaks as soon as I find some time to do it.
+There's room for improvement (e.g., builder pattern style functionality and some tweaks).
 
 Here are some considerations I had during this task:
 
